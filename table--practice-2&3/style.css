@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+}
+
+td,
+th,
+tr {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.table-id {
+  width: 10%;
+}
+
+.table-title {
+  width: 30%;
+}
+
+.table-body {
+  width: 60%;
+}
+
+.input {
+  width: 50%;
+  height: 50px;
+  margin-bottom: 30px;
+  outline: none;
+}

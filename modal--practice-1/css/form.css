@@ -1,0 +1,171 @@
+.form {
+  position: relative;
+  z-index: 150;
+  top: -50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  max-width: 754px;
+  margin: 0 auto;
+  padding-top: 53px;
+  padding-right: 98px;
+  padding-bottom: 53px;
+  padding-left: 98px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.form__heading {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 34px;
+  color: #0c1014;
+}
+
+.form__extra {
+  color: #d90000;
+}
+
+.form__name-wrap,
+.form__tel-wrap,
+.form__email-wrap,
+.form__fields-wrap,
+.form__director-wrap,
+.form__image-wrap {
+  position: relative;
+}
+
+.form__organization-name,
+.form__tel-name,
+.form__email-name,
+.form__fields-name,
+.form__director-name {
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  left: 16px;
+}
+
+.form__image-name {
+  position: absolute;
+  top: -18px;
+  left: 31px;
+}
+
+.form__field,
+.form__director {
+  padding-top: 22px;
+  padding-bottom: 8px;
+}
+
+input#file-upload-button {
+  display: none;
+}
+
+.form__top-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__image {
+  width: 175px;
+  height: 175px;
+  margin-bottom: 0;
+  padding: 0;
+  border: none;
+  color: transparent;
+  background-image: url("../img/avatar.webp");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.form__image-name {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  color: #6a6e72;
+}
+
+.form__organization,
+.form__tel,
+.form__email {
+  width: 362px;
+  padding-top: 22px;
+  padding-bottom: 8px;
+}
+
+.form__image::file-selector-button {
+  display: none;
+}
+
+.form__button {
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #e5266e;
+}
+
+.form__cancel-button {
+  width: 100%;
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #0848c0;
+}
+
+.form__website {
+  background-image: url("../img/globe.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+.form__vk {
+  background-image: url("../img/vk.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+.form__ok {
+  background-image: url("../img/ok.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+.form__facebook {
+  background-image: url("../img/facebook.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+.form__instagram {
+  background-image: url("../img/Instagram.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+.form__youtube {
+  background-image: url("../img/youtube.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+.form__director {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  min-width: 480px;
+  font-family: "PT Sans", sans-serif;
+}
+
+input,
+select {
+  width: 100%;
+  height: 56px;
+  margin-bottom: 32px;
+  padding: 16px;
+  border: 1px solid #d6dade;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #0c1014;
+  outline: none;
+}
+
+select {
+  position: relative;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+  cursor: pointer;
+
+  appearance: none;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  color: #6a6e72;
+}
+
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-right: 98px;
+  padding-bottom: 100px;
+  padding-left: 98px;
+}
+
+.reset-btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

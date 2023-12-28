@@ -1,0 +1,36 @@
+.button {
+  align-items: center;
+  width: 400px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #e5266e;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.filter {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  opacity: .42;
+  background-color: #0000006b;
+}
+
+.heading {
+  display: none;
+}

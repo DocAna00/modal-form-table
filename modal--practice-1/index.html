@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное окно с формой</title>
+    <link rel="preload" href="fonts/montserrat-v26-cyrillic_latin-800.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/lato-v24-latin-700.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/pt-sans-v17-cyrillic_latin-regular.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/pt-sans-v17-cyrillic_latin-700.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/modal.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Стать партнёром
+            проекта</h1>
+        <div class="button-wrap"><button class="button reset-btn" onclick="showModal('block')">Стать партнёром
+                проекта</button></div>
+        <div class="filter" onclick="showModal('none')"></div>
+        <section class="form">
+            <form class="form__form" action="#">
+                <h2 class="form__heading">Стать партнёром проекта</h2>
+                <div class="form__top-wrap">
+                    <div class="form__left-wrap">
+                        <div class="form__name-wrap">
+                            <label class="form__organization-name" for="name"><span class="form__extra">✱</span>
+                                Название
+                                организации</label>
+                            <input class="form__organization" type="text" name="name" id="name" required>
+                        </div>
+                        <div class="form__tel-wrap">
+                            <label class="form__tel-name" for="tel"><span class="form__extra">✱</span> Телефон</label>
+                            <input class="form__tel" type="tel" name="tel" id="tel" required>
+                        </div>
+                        <div class="form__email-wrap">
+                            <label class="form__email-name" for="email"><span class="form__extra">✱</span>
+                                E-mail</label>
+                            <input class="form__email" type="email" name="tel" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form__image-wrap">
+                        <label class="form__image-name" for="image"><span class="form__extra">✱</span> Логотип (jpeg,
+                            png)</label>
+                        <input class="form__image" id="image" type="file" accept="image/png, image/jpeg">
+                    </div>
+                </div>
+                <div class="form__fields-wrap">
+                    <label class="form__fields-name" for="field"><span class="form__extra">✱</span> Направление</label>
+                    <select class="form__field" name="field" id="field">
+                        <option value="1">Экология</option>
+                        <option value="2">Биология</option>
+                        <option value="3">Информационные технологии</option>
+                        <option value="4">Геология</option>
+                        <option value="5">Литература</option>
+                    </select>
+                </div>
+                <div><input class="form__website" type="text"></div>
+                <div><input class="form__vk" type="text"></div>
+                <div><input class="form__ok" type="text"></div>
+                <div><input class="form__facebook" type="text"></div>
+                <div><input class="form__instagram" type="text"></div>
+                <div><input class="form__youtube" type="text"></div>
+                <div class="form__director-wrap">
+                    <label class="form__director-name" for="director">Руководитель</label>
+                    <input class="form__director" type="text" name="director" id="director">
+                </div>
+                <button class="form__button reset-btn">Стать партнёром проекта</button>
+                <button class="form__cancel-button reset-btn">Отменить</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
